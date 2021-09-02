@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: rgb(78, 71, 71);
+  color: white;
+  text-align: center;
+  line-height: 7vh;
+  height: 7vh;
+}
+.banner {
+  margin: 10px 0px;
+  background-color: teal;
+  text-align: center;
+  line-height: 90vh;
+  height: 90vh;
+  color: white;
+}
+h1 {
+  text-align: center;
+}
+.section-1 {
+  display: flex;
+  margin: 10px 10px;
+  justify-content: space-around;
+}
+.box {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: rgb(123, 180, 180);
+}
+
+.section-2 {
+  display: flex;
+  margin: 10px 0px;
+  padding: 0px 10px;
+  /* justify-content: space-around; */
+  height: 500px;
+}
+.main {
+  background-color: teal;
+  color: white;
+  width: 50%;
+  text-align: center;
+  line-height: 500px;
+}
+.article {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  color: white;
+  width: 50%;
+  text-align: center;
+  /* padding: 10px; */
+}
+.inner-artical {
+  /* margin: 10px 10px; */
+  background-color: teal;
+
+  line-height: 166px;
+}
+#artical-2 {
+  line-height: 146px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.section-3 {
+  display: flex;
+  margin: 10px 10px;
+  justify-content: space-around;
+}
+.box-section3 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(123, 180, 180);
+}
+footer{
+    margin: 10px 0px;
+    height: 7vh;
+    line-height: 7vh;
+    background-color: teal;
+    color: white;
+    text-align: center;
+}
